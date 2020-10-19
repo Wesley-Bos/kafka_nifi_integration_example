@@ -1,10 +1,9 @@
 # kafka_nifi_integration_example
-A simple example on how to use Kafka and Nifi
+A simple example on how to use Kafka and Nifi. View my [Medium post](https://medium.com/@wesleybos99/kafka-and-nifi-integration-d0431b540f37?source=friends_link&sk=05684bcce29dfe47a817071d4bff6b96) for a more comprehensive explanation.
 
 **To-do:**
-* Write Readme
-* Insert URL to Medium post
-* Add configuration of the processors in Nifi
+* Write Readme.
+* Add configuration of the processors in Nifi.
 
 1. Execute the build_project.sh script
 2. Wait for Nifi to set up. Visit http://localhost:8080/nifi/.
