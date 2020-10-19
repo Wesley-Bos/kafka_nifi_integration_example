@@ -11,7 +11,7 @@ for e in range(100):
         data = {'id':e, 'description':"UCLL"}
     else: 
         data = {'id':e, 'description':"Hogeschool PXL"}
-    producer.send('schools', value=data)
+    producer.send('school', value=data)
     print(e)
     print(f"Sending data : {data}")
-    sleep(15)
+    sleep(5)
